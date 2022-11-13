@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+
+}
+#cardCantainer{
+    /* background-color: brown; */
+    width: 100vw;
+    height: 100vh;
+}
+
+#sqare{
+    /* clip-path: inset(5% 20% 15% 10%); */
+   
+    background-color: white;
+    width: 15vw;
+    height: 22vh;
+    /* clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%); */
+}
+
+.square{
+    background-color: white;
+    width: 18vw;
+    height: 29vh;
+    cursor: cell;
+}
+
+#circle{
+    background-color: hotpink;
+    width: 15.5vw;
+    height: 32vh;
+    /* border-radius: 30%; */
+    clip-path: circle(50% at 50% 50%);
+}
+
+#cards{
+    margin: 2rem;
+}
+
+input{
+    padding: 0.5rem;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    margin: 2rem;
+    position: relative;
+    left: 35rem;
+    /* display: flex; */
+}
